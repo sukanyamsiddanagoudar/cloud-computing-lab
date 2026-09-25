@@ -12,12 +12,31 @@ This repository contains the experiments and practical work carried out as part 
 
 **Performance Analysis of Type-1 and Type-2 Hypervisors**
 
-The experiment analyzes and compares the performance of virtual machines running on:
+This experiment includes the study and practical implementation of virtualization and containerization technologies.
 
-* Proxmox VE — Type-1 Hypervisor
-* VMware Workstation — Type-2 Hypervisor
+### Part A — Type-1 Hypervisor
 
-The experiment considers system configuration, CPU performance, memory usage, disk usage, and CPU benchmark results.
+**Proxmox VE**
+
+Performance analysis of a virtual machine running on Proxmox VE, a Type-1 hypervisor.
+
+**Status:** In Progress
+
+### Part B — Type-2 Hypervisor
+
+**VMware Workstation**
+
+Performance analysis of a virtual machine running on VMware Workstation, a Type-2 hypervisor.
+
+**Status:** Completed
+
+### Part C — Docker Containerization
+
+**Python Web Application**
+
+A simple Python Flask web application was containerized and executed using Docker.
+
+**Status:** Completed
 
 ## Repository Structure
 
@@ -27,13 +46,30 @@ Cloud computing Lab/
 ├── README.md
 │
 └── Experiment-1/
+    │
     ├── README.md
     │
     ├── Hypervisor-1/
     │   ├── screenshots/
     │   └── result.md
     │
-    └── Hypervisor-2/
-        ├── screenshots/
-        └── result.md
+    ├── Hypervisor-2/
+    │   ├── screenshots/
+    │   └── result.md
+    │
+    └── Docker-Python-App/
+        ├── Dockerfile
+        ├── app.py
+        ├── requirements.txt
+        └── screenshots/
 ```
+
+## Tools and Technologies
+
+* Proxmox VE
+* VMware Workstation
+* Ubuntu
+* Docker
+* Python
+* Flask
+* Sysbench
