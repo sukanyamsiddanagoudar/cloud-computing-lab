@@ -132,11 +132,11 @@
 
 
 
-> \*\*Note:\*\* Since Sysbench could not be installed, execution time, total events, events per second, and latency could not be measured.
+\*\*Note:\*\* Since Sysbench could not be installed, execution time, total events, events per second, and latency could not be measured.
 
 
 
-> The repository signing error may be related to the guest VM's package repository configuration or system time synchronization. The benchmark can be repeated after resolving the repository/time issue.
+The repository signing error may be related to the guest VM's package repository configuration or system time synchronization. The benchmark can be repeated after resolving the repository/time issue.
 
 
 
