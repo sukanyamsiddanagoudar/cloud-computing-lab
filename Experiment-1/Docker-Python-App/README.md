@@ -80,31 +80,6 @@ my-python-container
  http://localhost:5000
 ```
 
-## Screenshots
-
-### Docker Verification
-
-![Docker Verification](screenshots/1_docker%20variification.png)
-
-### Docker Creation
-
-![Docker Creation](screenshots/2_docker%20creation.png)
-
-### Image Creation
-
-![Image Creation](screenshots/3_image_creation.png)
-
-### Browser Output
-
-![Browser Output](screenshots/browser-output%20and%20run.png)
-
-### Application Output
-
-![Application Output](screenshots/output%20running%20in%20brower.png)
-
-### Container Management
-
-![Container Management](screenshots/5_stop-start%20and%20container%20removal.png)
 
 ## Result
 
