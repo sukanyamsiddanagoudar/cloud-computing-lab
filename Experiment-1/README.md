@@ -96,25 +96,40 @@ Hypervisor-2/screenshots/
 ## 9. Comparison
 
 After both experiments are completed, the measured values will be compared based on:
+## Performance Comparison
 
-| Parameter          | Proxmox VE     | VMware Workstation |
-| ------------------ | -------------- | ------------------ |
-| CPU Information    | To be recorded | Recorded           |
-| Memory Usage       | To be recorded | Recorded           |
-| Disk Usage         | To be recorded | Recorded           |
-| CPU Benchmark      | To be recorded | Recorded           |
-| Events per Second  | To be recorded | 1290.89            |
-| Average Latency    | To be recorded | 0.77 ms            |
-| CPU Utilization    | To be recorded | ~3% active         |
-| Memory Utilization | To be recorded | ~58.8%             |
+After both experiments are completed, the measured values will be compared based on:
 
+| Parameter | Proxmox VE | VMware Workstation |
+|---|---|---|
+| CPU Information | To be recorded | Recorded |
+| Memory Usage | To be recorded | Recorded |
+| Disk Usage | To be recorded | Recorded |
+| CPU Benchmark | To be recorded | Recorded |
+| Events per Second | To be recorded | 1290.89 |
+| Average Latency | To be recorded | 0.77 ms |
+| CPU Utilization | To be recorded | ~3% active |
+| Memory Utilization | To be recorded | ~58.8% |
 ## 10. Result
 
-The performance comparison will be completed after collecting the corresponding measurements from both Type-1 and Type-2 hypervisors.
+The performance of the Type-1 hypervisor (Proxmox VE) and Type-2 hypervisor (VMware Workstation) was evaluated using system resource monitoring and CPU benchmarking.
 
+| Parameter          | Type-1 Hypervisor - Proxmox VE | Type-2 Hypervisor - VMware Workstation |
+| ------------------ | ------------------------------ | -------------------------------------- |
+| CPU Information    | 2 vCPU, x86_64, GenuineIntel   | 12th Gen Intel Core i5-1235U, x86_64   |
+| Memory Usage       | 1019.4 MiB / 1968.3 MiB        | 1125.5 MiB / 1915.2 MiB                |
+| Disk Usage         | 7.0 GB / 20 GB (38%)           | 9.8 GB / 20 GB (53%)                   |
+| CPU Benchmark      | Sysbench CPU                   | Sysbench CPU, Prime 20000              |
+| Events per Second  | To be filled from Sysbench     | 1290.89                                |
+| Average Latency    | To be filled from Sysbench     | 0.77 ms                                |
+| CPU Utilization    | ~1.3% active                   | ~3% active                             |
+| Memory Utilization | ~51.8%                         | ~58.8%                                 |
+
+The measurements provide a comparison of CPU performance, memory usage, disk usage, CPU utilization, and memory utilization between the Type-1 and Type-2 hypervisors.
 ## 11. Conclusion
 
 This experiment provides practical understanding of Type-1 and Type-2 hypervisors and demonstrates how virtualization environments can be evaluated using system resource monitoring and CPU benchmarking.
+
 
 ## 12. Docker — Python Web Application
 
