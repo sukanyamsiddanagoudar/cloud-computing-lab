@@ -115,3 +115,33 @@ The performance comparison will be completed after collecting the corresponding 
 ## 11. Conclusion
 
 This experiment provides practical understanding of Type-1 and Type-2 hypervisors and demonstrates how virtualization environments can be evaluated using system resource monitoring and CPU benchmarking.
+
+## 12. Docker — Python Web Application
+
+A simple Python Flask web application was containerized and executed using Docker.
+
+### Docker Components
+
+| Component | Description |
+|-----------|-------------|
+| Application | Python Flask |
+| Docker Image | my-python-app |
+| Container | my-python-container |
+| Port | 5000 |
+
+### Docker Workflow
+
+```text
+Flask Application
+       ↓
+   Dockerfile
+       ↓
+  Docker Image
+  my-python-app
+       ↓
+Docker Container
+my-python-container
+       ↓
+http://localhost:5000
+Result:
+The Flask application was successfully containerized and run using Docker. The application was accessed through http://localhost:5000, and container operations such as logs, stop, start, and removal were successfully performed.
